@@ -20,6 +20,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website", "src\Website\Webs
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{35E4DAF5-4A15-4E6A-A7E4-52C205007489}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Website.Tests", "test\Website.Tests\Website.Tests.csproj", "{A40B53A9-2CF2-457E-A38E-3B86D882A8CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumDriver.Tests", "test\SeleniumDriver.Tests\SeleniumDriver.Tests.csproj", "{2DD1EE64-BF5F-46D9-AFB8-D1148A5FF942}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IisExpressHost.Tests", "test\IisExpressHost.Tests\IisExpressHost.Tests.csproj", "{EB97DC15-1A7D-4112-9377-69383F6E7FEC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,8 +48,25 @@ Global
 		{5D44B1E2-1924-4436-9AC0-D77E0497D41A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D44B1E2-1924-4436-9AC0-D77E0497D41A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D44B1E2-1924-4436-9AC0-D77E0497D41A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A40B53A9-2CF2-457E-A38E-3B86D882A8CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A40B53A9-2CF2-457E-A38E-3B86D882A8CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A40B53A9-2CF2-457E-A38E-3B86D882A8CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A40B53A9-2CF2-457E-A38E-3B86D882A8CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2DD1EE64-BF5F-46D9-AFB8-D1148A5FF942}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2DD1EE64-BF5F-46D9-AFB8-D1148A5FF942}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2DD1EE64-BF5F-46D9-AFB8-D1148A5FF942}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2DD1EE64-BF5F-46D9-AFB8-D1148A5FF942}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB97DC15-1A7D-4112-9377-69383F6E7FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB97DC15-1A7D-4112-9377-69383F6E7FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB97DC15-1A7D-4112-9377-69383F6E7FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB97DC15-1A7D-4112-9377-69383F6E7FEC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A40B53A9-2CF2-457E-A38E-3B86D882A8CC} = {35E4DAF5-4A15-4E6A-A7E4-52C205007489}
+		{2DD1EE64-BF5F-46D9-AFB8-D1148A5FF942} = {35E4DAF5-4A15-4E6A-A7E4-52C205007489}
+		{EB97DC15-1A7D-4112-9377-69383F6E7FEC} = {35E4DAF5-4A15-4E6A-A7E4-52C205007489}
 	EndGlobalSection
 EndGlobal
