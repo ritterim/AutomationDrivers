@@ -1,7 +1,7 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Website.Tests
+namespace Ritter.AutomationDrivers.Website.Tests
 {
     [TestClass]
     public class UnitTest1

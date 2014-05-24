@@ -4,7 +4,7 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 
-namespace Website.Controllers
+namespace Ritter.AutomationDrivers.Website.Controllers
 {
     public class HomeController : Controller
     {

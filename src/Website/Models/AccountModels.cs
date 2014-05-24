@@ -6,7 +6,7 @@ using System.Data.Entity;
 using System.Globalization;
 using System.Web.Security;
 
-namespace Website.Models
+namespace Ritter.AutomationDrivers.Website.Models
 {
     public class UsersContext : DbContext
     {
