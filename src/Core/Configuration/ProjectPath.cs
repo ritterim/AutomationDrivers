@@ -39,7 +39,7 @@ namespace Ritter.AutomationDrivers.Core.Configuration
         {
             var directory = new DirectoryInfo(Environment.CurrentDirectory);
 
-            while (directory.GetFiles("*.sln").Length == 0)
+            while (directory != null && directory.GetFiles("*.sln").Length == 0)
             {
                 directory = directory.Parent;
             }
