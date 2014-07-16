@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>IisExpressHost</id>
+    <version>1.3.0</version>
+    <title>IisExpressHost</title>
+    <authors>joshua.wiens</authors>
+    <owners></owners>
+    <description>
+      Nuget package to programmatically start and stop IISExpress.
+    </description>
+    <releaseNotes>
+    </releaseNotes>
+    <summary>
+      Programmatically start and stop IISExpress.
+    </summary>
+    <language>en-US</language>
+    <copyright>Copyright  2014</copyright>
+    <references></references>
+    <tags></tags>
+  </metadata>
+</package>
