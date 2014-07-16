@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.InteropServices;
 
-namespace Ritter.AutomationDrivers.IisExpressHost
+namespace AutomationDrivers.IisExpressHost
 {
     internal static class NativeMethods
     {

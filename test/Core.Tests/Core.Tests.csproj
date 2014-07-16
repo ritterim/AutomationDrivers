@@ -7,8 +7,8 @@
     <ProjectGuid>{86A986F3-167D-4F90-A29C-B64C8A8D3E9C}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ritter.AutomationDrivers.Core.Tests</RootNamespace>
-    <AssemblyName>Ritter.AutomationDrivers.Core.Tests</AssemblyName>
+    <RootNamespace>AutomationDrivers.Core.Tests</RootNamespace>
+    <AssemblyName>AutomationDrivers.Core.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

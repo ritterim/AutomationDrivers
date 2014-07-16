@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Ritter.AutomationDrivers.Core.Exceptions
+namespace AutomationDrivers.Core.Exceptions
 {
     public class AutomationDriverException : System.Exception, ISerializable
     {

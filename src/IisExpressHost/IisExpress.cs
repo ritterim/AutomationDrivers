@@ -13,7 +13,7 @@ using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Ritter.AutomationDrivers.IisExpressHost
+namespace AutomationDrivers.IisExpressHost
 {
     public class IisExpress : IDisposable
     {

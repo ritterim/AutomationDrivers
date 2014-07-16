@@ -4,9 +4,9 @@ using System.Data.Entity.Infrastructure;
 using System.Threading;
 using System.Web.Mvc;
 using WebMatrix.WebData;
-using Ritter.AutomationDrivers.Website.Models;
+using AutomationDrivers.Website.Models;
 
-namespace Ritter.AutomationDrivers.Website.Filters
+namespace AutomationDrivers.Website.Filters
 {
     [AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false, Inherited = true)]
     public sealed class InitializeSimpleMembershipAttribute : ActionFilterAttribute

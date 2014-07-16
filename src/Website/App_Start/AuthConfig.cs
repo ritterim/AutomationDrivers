@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using Microsoft.Web.WebPages.OAuth;
-using Ritter.AutomationDrivers.Website.Models;
+using AutomationDrivers.Website.Models;
 
-namespace Ritter.AutomationDrivers.Website
+namespace AutomationDrivers.Website
 {
     public static class AuthConfig
     {

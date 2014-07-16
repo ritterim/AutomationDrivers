@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Optimization;
 
-namespace Ritter.AutomationDrivers.Website
+namespace AutomationDrivers.Website
 {
     public class BundleConfig
     {

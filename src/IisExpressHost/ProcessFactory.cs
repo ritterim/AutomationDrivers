@@ -13,7 +13,7 @@ using System.Net.NetworkInformation;
 using System.Linq;
 
 
-namespace Ritter.AutomationDrivers.IisExpressHost
+namespace AutomationDrivers.IisExpressHost
 {
     public static class ProcessFactory
     {

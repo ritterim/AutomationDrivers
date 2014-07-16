@@ -7,8 +7,8 @@
     <ProjectGuid>{6D6E4A8A-0E3E-4867-B123-79757261E5B1}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ritter.AutomationDrivers.IisExpressHost</RootNamespace>
-    <AssemblyName>Ritter.AutomationDrivers.IisExpressHost</AssemblyName>
+    <RootNamespace>AutomationDrivers.IisExpressHost</RootNamespace>
+    <AssemblyName>AutomationDrivers.IisExpressHost</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

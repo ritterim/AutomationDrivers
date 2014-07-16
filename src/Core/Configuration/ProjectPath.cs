@@ -2,7 +2,7 @@
 using System.IO;
 using System.Linq;
 
-namespace Ritter.AutomationDrivers.Core.Configuration
+namespace AutomationDrivers.Core.Configuration
 {
     public interface IProjectLocation
     {

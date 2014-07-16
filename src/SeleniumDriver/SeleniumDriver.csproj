@@ -7,8 +7,8 @@
     <ProjectGuid>{D685EBF0-9A23-473A-A296-C258134C4E0E}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ritter.AutomationDrivers.SeleniumDriver</RootNamespace>
-    <AssemblyName>Ritter.AutomationDrivers.SeleniumDriver</AssemblyName>
+    <RootNamespace>AutomationDrivers.SeleniumDriver</RootNamespace>
+    <AssemblyName>AutomationDrivers.SeleniumDriver</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>

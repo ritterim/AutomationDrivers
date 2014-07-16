@@ -8,10 +8,10 @@ using System.Web.Security;
 using DotNetOpenAuth.AspNet;
 using Microsoft.Web.WebPages.OAuth;
 using WebMatrix.WebData;
-using Ritter.AutomationDrivers.Website.Filters;
-using Ritter.AutomationDrivers.Website.Models;
+using AutomationDrivers.Website.Filters;
+using AutomationDrivers.Website.Models;
 
-namespace Ritter.AutomationDrivers.Website.Controllers
+namespace AutomationDrivers.Website.Controllers
 {
     [Authorize]
     [InitializeSimpleMembership]

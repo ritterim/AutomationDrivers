@@ -7,8 +7,8 @@
     <ProjectGuid>{2DD1EE64-BF5F-46D9-AFB8-D1148A5FF942}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Ritter.AutomationDrivers.SeleniumDriver.Tests</RootNamespace>
-    <AssemblyName>Ritter.AutomationDrivers.SeleniumDriver.Tests</AssemblyName>
+    <RootNamespace>AutomationDrivers.SeleniumDriver.Tests</RootNamespace>
+    <AssemblyName>AutomationDrivers.SeleniumDriver.Tests</AssemblyName>
     <TargetFrameworkVersion>v4.5.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <ProjectTypeGuids>{3AC096D0-A1C2-E12C-1390-A8335801FDAB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>

@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
 
-namespace Ritter.AutomationDrivers.Website
+namespace AutomationDrivers.Website
 {
     public static class WebApiConfig
     {
