@@ -38,9 +38,6 @@ namespace AutomationDrivers.Core.Exceptions
 
         public string ScreenShotPath { get; set; }
 
-        /// <remarks>
-        /// Credit to MvcContrib.TestHelper.AssertionException for PreserveStackTrace
-        /// </remarks>
         private static void PreserveStackTrace(Exception e)
         {
             var ctx = new StreamingContext(StreamingContextStates.CrossAppDomain);
@@ -50,27 +47,6 @@ namespace AutomationDrivers.Core.Exceptions
             e.GetObjectData(si, ctx);
             mgr.RegisterObject(e, 1, si);
             mgr.DoFixups();
-        }
-    }
-
-    public static class ExceptionExtensions
-    {
-        public static string ToExpressionString(this LambdaExpression expression)
-        {
-            StringBuilder sbExpression = new StringBuilder();
-            foreach (var exprParam in expression.Parameters)
-            {
-                sbExpression.Append(exprParam);
-                if (expression.Parameters.Last() != exprParam) sbExpression.Append(",");
-            }
-            sbExpression.Append(" => ");
-
-            var exprBody = expression.Body.ToString();
-            exprBody = exprBody.Replace("OrElse", "||").Replace("AndAlso", "&&");
-
-            sbExpression.Append(exprBody);
-
-            return sbExpression.ToString();
         }
     }
 }

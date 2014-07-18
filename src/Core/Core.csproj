@@ -39,9 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
+    <Compile Include="ExceptionExtensions.cs" />
     <Compile Include="Configuration\ProjectPath.cs" />
     <Compile Include="Exceptions\AutomationDriverException.cs" />
+    <Compile Include="Exceptions\AutomationFailedException.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
