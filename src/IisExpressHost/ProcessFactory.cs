@@ -21,22 +21,21 @@ namespace AutomationDrivers.IisExpressHost
 
         public static IisExpress CreateDefaultInstance(string solutionRootDir)
         {
-            var targetProjectFolderName = ConfigurationManager.AppSettings["TargetProjectFolderName"];
-            var applicationPath = GetApplicationPath(targetProjectFolderName, solutionRootDir);
+            var webProjectPath = ProjectPath.GetWebProjectFolderPath(ConfigurationManager.AppSettings["TargetProjectFolderName"]);
 
             var portNumber = GetAvailablePort();
 
             IisPort = portNumber;
 
-            return new IisExpress(applicationPath, portNumber);
+            return new IisExpress(webProjectPath, portNumber);
         }
 
-        public static string GetApplicationPath(string targetProjectFolderName, string solutionRootDir)
-        {
-            var logicalPath = String.Format("src\\{0}", targetProjectFolderName);
-            var applicationPath = Path.Combine(solutionRootDir, logicalPath);
-            return applicationPath;
-        }
+        //public static string GetApplicationPath(string targetProjectFolderName, string solutionRootDir)
+        //{
+        //    var logicalPath = String.Format("src\\{0}", targetProjectFolderName);
+        //    var applicationPath = Path.Combine(solutionRootDir, logicalPath);
+        //    return applicationPath;
+        //}
 
         public static string BaseUrl
         {

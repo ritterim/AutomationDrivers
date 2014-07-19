@@ -23,19 +23,14 @@ namespace AutomationDrivers.Core.Configuration
             FullPath = fullPath;
         }
 
-        public static ProjectPath FromPath(string webProjectFullPath)
-        {
-            return new ProjectPath(webProjectFullPath);
-        }
-
-        public static ProjectPath FromFolder(string webProjectFolderName)
+        public static string GetWebProjectFolderPath(string webProjectFolderName)
         {
             string solutionFolder = GetSolutionFolderPath();
             string projectPath = FindSubFolderPath(solutionFolder, webProjectFolderName);
-            return new ProjectPath(projectPath);
+            return projectPath;
         }
 
-        private static string GetSolutionFolderPath()
+        public static string GetSolutionFolderPath()
         {
             var directory = new DirectoryInfo(Environment.CurrentDirectory);
 
