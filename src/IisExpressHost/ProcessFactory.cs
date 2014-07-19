@@ -19,7 +19,7 @@ namespace AutomationDrivers.IisExpressHost
     {
         public static int IisPort;
 
-        public static IisExpress CreateDefaultInstance(string solutionRootDir)
+        public static IisExpress CreateDefaultInstance()
         {
             var webProjectPath = ProjectPath.GetWebProjectFolderPath(ConfigurationManager.AppSettings["TargetProjectFolderName"]);
 
@@ -29,13 +29,6 @@ namespace AutomationDrivers.IisExpressHost
 
             return new IisExpress(webProjectPath, portNumber);
         }
-
-        //public static string GetApplicationPath(string targetProjectFolderName, string solutionRootDir)
-        //{
-        //    var logicalPath = String.Format("src\\{0}", targetProjectFolderName);
-        //    var applicationPath = Path.Combine(solutionRootDir, logicalPath);
-        //    return applicationPath;
-        //}
 
         public static string BaseUrl
         {
