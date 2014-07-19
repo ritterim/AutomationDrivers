@@ -1,8 +1,6 @@
 ﻿// Copyright (c) 2014 Insurance Marketing Technology. All rights reserved.
 // </copyright>
 // <author>Joshua Wiens</author>
-// <author>Justin Rusbatch</author>
-// <author>Ken Dale</author>
 // <date>3/20/2014</date>
 // <summary>Implements the iis express host class</summary>
 
@@ -11,6 +9,8 @@ using System.Configuration;
 using System.IO;
 using System.Net.NetworkInformation;
 using System.Linq;
+using AutomationDrivers.Core.Configuration;
+using AutomationDrivers.Core.Exceptions;
 
 
 namespace AutomationDrivers.IisExpressHost

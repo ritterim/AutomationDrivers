@@ -1,10 +1,8 @@
 ﻿// Copyright (c) 2014 Insurance Marketing Technology. All rights reserved.
 // </copyright>
 // <author>Joshua Wiens</author>
-// <author>Justin Rusbatch</author>
-// <author>Ken Dale</author>
 // <date>3/20/2014</date>
-// <summary>Implements the iis express host class</summary>
+// <summary>Implements the IISExpressHost class</summary>
 
 using System;
 using System.Diagnostics;
@@ -12,6 +10,7 @@ using System.IO;
 using System.Runtime.InteropServices;
 using System.Threading;
 using System.Threading.Tasks;
+using AutomationDrivers.Core.Exceptions;
 
 namespace AutomationDrivers.IisExpressHost
 {
@@ -27,7 +26,7 @@ namespace AutomationDrivers.IisExpressHost
 
 
         /// <summary>
-        /// Initializes a new instance of the Web.UI.Tests.IISExpress.IISExpressHost class.
+        /// Initializes a new instance of the IISExpressHost class.
         /// </summary>
         ///
         /// <exception cref="DirectoryNotFoundException">
@@ -37,8 +36,8 @@ namespace AutomationDrivers.IisExpressHost
         /// Thrown when one or more arguments are outside the required range.
         /// </exception>
         ///
-        /// <param name="path"> The full pathname of the file. </param>
-        /// <param name="port"> The port. </param>
+        /// <param name="path"> The full path to the targeted web project </param>
+        /// <param name="port"> The port assigned by ProcessFactory.GetAvailablePort() </param>
         public IisExpress(string path, int port)
         {
             if (!Directory.Exists(path))
@@ -156,7 +155,7 @@ namespace AutomationDrivers.IisExpressHost
         }
 
 
-        /// <summary>   Quits this object. </summary>
+        /// <summary> Kills the IISExpress application based on the assigned pId </summary>
         public void Quit()
         {
             Process proc;
@@ -198,7 +197,7 @@ namespace AutomationDrivers.IisExpressHost
 
         /// <summary>   Sends a stop message to process. </summary>
         ///
-        /// <param name="pid">  The PID. </param>
+        /// <param name="pid">  The process ID assigned to the current IISEcpress instance. </param>
         private static void SendStopMessageToProcess(int pid)
         {
             try
