@@ -47,3 +47,4 @@ artifacts/
 logs/
 *.ncrunch*
 /AutomationDrivers.sln.GhostDoc.xml
+.vs/
